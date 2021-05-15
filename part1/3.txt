@@ -1,0 +1,10 @@
+jukka@DESKTOP-NCONF08:~$ docker run -d devopsdockeruh/simple-web-service:ubuntu
+cd024eabf04962eb8f918f3c85aeb62a976f892614cb904ded9dfc5ef69dd741
+jukka@DESKTOP-NCONF08:~$ docker exec -it cd bash
+root@cd024eabf049:/usr/src/app# tail -f ./text.log
+2021-05-15 12:50:53 +0000 UTC
+2021-05-15 12:50:55 +0000 UTC
+2021-05-15 12:50:57 +0000 UTC
+2021-05-15 12:50:59 +0000 UTC
+2021-05-15 12:51:01 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
