@@ -1,0 +1,4 @@
+jukka@DESKTOP-NCONF08:~/git/docker-course$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+jukka@DESKTOP-NCONF08:~/git/docker-course$ docker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
