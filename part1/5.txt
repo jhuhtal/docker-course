@@ -1,0 +1,12 @@
+jukka@DESKTOP-NCONF08:~/git/docker-course$ docker images
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   2 months ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   2 months ago   15.7MB
+
+jukka@DESKTOP-NCONF08:~/git/docker-course$ docker run -d devopsdockeruh/simple-web-service:alpine
+2fec0dc25f8501b9d4f9aa7706d842cf37140054b83f8740d1f67cab922d0260
+jukka@DESKTOP-NCONF08:~/git/docker-course$ docker exec 2f tail -f ./text.log
+2021-05-15 15:43:13 +0000 UTC
+2021-05-15 15:43:15 +0000 UTC
+2021-05-15 15:43:17 +0000 UTC
+2021-05-15 15:43:19 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
