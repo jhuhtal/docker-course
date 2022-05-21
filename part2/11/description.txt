@@ -1,0 +1,8 @@
+The project is a Python library for utilizing an Apache Spark JAR package from Python environment.
+
+I used Docker for running unit tests with Pytest. The Dockerfile is based on python:30-slim image and 
+includes commands for installing JDK and Poetry as well as commands for installing Python dependencies 
+(python, pyspark, py4j, unidecode, numpy, pytest, pytest-watch) using Poetry. The container is run 
+with the following command:
+
+docker run --rm -ti -v "$(PWD):/project:ro" <image-name>
